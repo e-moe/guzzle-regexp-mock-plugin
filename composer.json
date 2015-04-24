@@ -1,0 +1,24 @@
+{
+    "name": "e-moe/guzzle-regexp-mock-plugin",
+    "type": "library",
+    "description": "Mock plugin for Guzzle3 with regexp match urls",
+    "keywords": ["guzzle","mock", "plugin", "regexp"],
+    "homepage": "https://github.com/e-moe/guzzle-regexp-mock-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Labinskiy aka e-moe",
+            "email": "e-moe@ukr.net",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "guzzle/guzzle": "~3.0",
+        "symfony/event-dispatcher": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emoe\\GuzzleRegexpMockPlugin": ""
+        }
+    }
+}
