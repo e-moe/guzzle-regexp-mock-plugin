@@ -1,6 +1,6 @@
 # Guzzle regexp mock plugin
 
-The mock plugin is useful for testing Guzzle clients. The mock plugin allows you to queue an array of responses that will satisfy requests sent from a client by consuming the request queue in FIFO order. Each request may have optional regexp url match patter.
+The mock plugin is useful for testing Guzzle clients. The mock plugin allows you to queue an array of responses that will satisfy requests sent from a client by consuming the request queue in FIFO order. Each request may have optional regexp url match pattern.
 
 _Based on standard mock plugin - http://guzzle3.readthedocs.org/plugins/mock-plugin.html_
 
